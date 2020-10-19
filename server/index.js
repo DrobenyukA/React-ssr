@@ -6,7 +6,7 @@ import ReactDOMServer from 'react-dom/server';
 
 import App from '../src/App';
 
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 const app = express();
 
 app.get('/', (req, res) => {
